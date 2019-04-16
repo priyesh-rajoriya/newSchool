@@ -1,0 +1,45 @@
+{
+  "name": "SVMNEW",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "accordion-collapse-react-native": "^0.1.7",
+    "axios": "^0.18.0",
+    "js-base64": "^2.4.9",
+    "moment": "^2.23.0",
+    "react": "16.6.1",
+    "react-moment": "^0.8.4",
+    "react-native": "0.57.7",
+    "react-native-accordion": "^1.0.1",
+    "react-native-calendar-picker": "^5.22.0",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "^1.0.0-beta7",
+    "react-native-expandable-section-flatlist": "^1.1.8",
+    "react-native-expandable-section-list": "^1.0.7",
+    "react-native-image-picker": "^0.27.2",
+    "react-native-modal": "^7.0.2",
+    "react-native-modal-datetime-picker": "^6.0.0",
+    "react-native-month-selector": "^1.4.0",
+    "react-native-select-multiple": "^1.2.0",
+    "react-native-simple-radio-button": "^2.7.3",
+    "react-native-super-grid": "^2.4.4",
+    "react-navigation": "^2.18.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.50.0",
+    "mocha": "^6.1.2",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
